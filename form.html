@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>enter clan RobBot</title>
+</head>
+
+<body>
+    <form action="#" class="form">
+        <div class="form_header">
+            <a href="index.html" class="form_back"><</a>
+                
+                    <h2 class="form_title">aplication for membership</h2>
+        </div>
+        <div class="form_body">
+            <fieldset class="name">
+                <legend class="frame_name">your nickname in real life :</legend>
+                <input type="text" id="name" name="name" placeholder="name" class="name_input">
+                <input type="text" id="surname" name="surname" placeholder="surname" class="name_input">
+            </fieldset>
+            <div class="gender">
+                <h2 class="gender_title">your gender</h2>
+                <input type="radio" id="male" name="gender" class="male">
+                <label for="male">M</label>
+                <input type="radio" id="female" name="gender" class="female">
+                <label for="female">F</label>
+
+            </div>
+            <div class="age">
+                <input type="checkbox" id="age_18" name="age" class="age_18">
+                <label for="age_18">i'm 18</label>
+            </div>
+            <div class="distipline">
+                <p class="distipline_text">your distipline</p>
+                <select name="select_distipline" id=select_distipline" class="select_distipline">
+                    <option value="cs go">cs go</option>
+                    <option value="dota">dota 2</option>
+                    <option value="apex">apex</option>
+                </select>
+            </div>
+            <textarea name="extra_info" class="extra_info" placeholder="extra_information"></textarea>
+            <button type="submit" class="send_form">send request</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

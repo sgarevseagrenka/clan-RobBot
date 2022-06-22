@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #222;
+    cursor: default;
+
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    background-color: #222;
+    min-height: 50px;
+    padding: 15px 0;
+    box-shadow: 0 5px 20px black;
+    position: fixed;
+    z-index:99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    width: 100%;
+
+
+}
+.logo {
+    text-decoration: none;
+}
+
+.logo_text {
+    color: white;
+}
+.nav {
+    display: inline-block;
+    padding: 10px;
+}
+.naw_item{
+    color: white;
+    text-decoration: none;
+    transition: 499ms;
+}
+.naw_item:hover{
+    color: aquamarine;
+}
+.main_section {
+    background-image: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+.main_content {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+}
+.main_title {
+    font-size: 100px;
+    margin-bottom:10px; 
+    color: gray;
+}
+.main_p {
+    font-size: 60px;
+}
+.main_button {
+    display: inline-block;
+    background-image:linear-gradient(cyan,rgb(10, 234, 197)) ;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.four_pluses {
+    display: inline-block;
+    text-align: center;
+    margin-top:30px ;
+
+}
+.plus {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 15px 10px 15px;
+
+}
+.img_plus {
+    width: 60%;
+    height: 100px;
+    
+
+}
+.p_plus {
+    color: aqua;
+    font-size: 20px;
+}
+.games {
+    margin-top: 100px;
+
+}
+.games_container {
+    padding: 20px 10px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0) ;
+
+}
+.title {
+    color: aqua;
+    text-align: center;
+    padding: 10px 0;
+}
+.content {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding: 10px 5px;
+}
+.game_title {
+    color: rgb(13, 237, 140);
+}
+.game_line {
+    height: 5px;
+    background-color: rgb(13, 237, 140);
+    width: 33%;
+    margin: 10px 0;
+    
+}
+.game_text {
+    color: white;
+}
+.game_img {
+    display: inline-block;
+    width: 49%;
+}
+.img {
+    width: 100%;
+}
+.info_text{
+    color: white;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.reg_container {
+    box-shadow: 0px 10px 25px black;
+    margin:50px 0;
+    padding: 50px;
+
+}
+.reg_line{
+    margin: 0 auto;
+    width: 200px;
+
+}
+.reg_box {
+    background-color: aqua;
+    margin-top: 10px ;
+    padding: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.reg_txt {
+    display: inline-block;
+    color: white;
+    font-size: 27px;
+}
+.reg_button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #222;
+    padding: 10px 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(max-width:931)  {
+    .reg_button {
+        left: 400px;
+    }
+    
+}
+@media(max-width:863px) {
+    .main_title {
+        font-size: 70px;
+    }
+    .main_p {
+        font-size: 40px;
+    }
+}
+@media(max-width:630px) {
+    .main_title {
+        font-size: 50px;
+    }
+    .main_content {
+        left: 50px;
+    }
+    .main_p {
+        font-size: 30px;
+    }
+    .main_button {
+        width: 300px;
+    }
+    .plus {
+        width: 40%;
+    }
+    .content {
+        width: 100%;
+    }
+    .game_img{
+        width: 100%;
+    }
+}
+@media(max-width:465px) {
+    .main_title {
+        font-size: 30px;
+    }
+    .main_content {
+
+        left: 10px;
+
+    }
+    .main_p {
+        font-size: 20px;
+    }
+    .plus{
+        width:90%;
+    }
+    .reg_txt {
+        font-size: 17px;
+    }
+    .reg_box {
+
+        padding: 20px;
+    }
+    .reg_button{
+        padding: 5px 20px;
+    }
+
+    
+}
